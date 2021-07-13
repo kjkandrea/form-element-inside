@@ -7,8 +7,18 @@
 </head>
 <body>
 <h1>Form Element Inside</h1>
-<form action="">
-	<fieldset>im form fieldset</fieldset>
+<form id="form">
+	<div>
+		<label for="name">Enter your name: </label>
+		<input type="text" name="name" id="name">
+	</div>
+	<div>
+		<label for="email">Enter your email: </label>
+		<input type="email" name="email" id="email">
+	</div>
+	<div>
+		<input type="submit" value="Subscribe!">
+	</div>
 </form>
 <script src="./app.js" type="module"></script>
 </body>
